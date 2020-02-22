@@ -11,6 +11,6 @@ include_directories("./mydir1/"
                     "./mydir2/")
 
 # Adding sources to compilation.
-add_executable(cmake_tut main.c
+add_executable(cmake_tut ./main.c
                          ./mydir1/test.c
                          ./mydir2/test.cpp)
